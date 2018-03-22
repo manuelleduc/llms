@@ -1,10 +1,7 @@
-import llms.arith.{Arith, ArithExp, ArithInterpreter}
-import llms.base.{Base, BaseExp, ScalaGenBase}
+import llms.arith.{Arith, ArithInterpreter}
 import llms.compiler.{Compile, CompileScala}
-import llms.expressions.Expressions
 import llms.interpreter.Interpreter
 import llms.power.PowerA
-import llms.trig.Trig
 
 import scala.language.{higherKinds, implicitConversions, postfixOps}
 
